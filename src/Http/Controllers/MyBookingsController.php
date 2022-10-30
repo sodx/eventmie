@@ -18,7 +18,7 @@ use Classiebit\Eventmie\Models\Booking;
 use Classiebit\Eventmie\Models\User;
 use Classiebit\Eventmie\Notifications\MailNotification;
 
-class MybookingsController extends Controller
+class MyBookingsController extends Controller
 {
     
     /**
