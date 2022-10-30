@@ -237,7 +237,7 @@ class EventmieServiceProvider extends ServiceProvider
     private function setRegional($regional = [])
     {
         // set server side timezone
-        Config::set('app.timezone', $regional['timezone_default']);
+        //Config::set('app.timezone', $regional['timezone_default']);
 
         // change only frontend language
         $default_lang = config('eventmie.default_lang');
